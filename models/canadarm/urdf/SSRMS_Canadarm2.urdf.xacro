@@ -17,7 +17,7 @@ The link CoM locations (with respect to link frame) are set to zero as the inert
   <xacro:ssrms_canadarm2_gazebo command_interface="position" />
   
   <!--Constant parameters-->
-  <!-- Default effort was 2332 for all joints -->
+  <!-- Default effort value was 2332 for all joints -->
   <xacro:property name="base_joint_effort"        value="8000.0" />
   <xacro:property name="shoulder_roll_effort"        value="6000.0" />
   <xacro:property name="shoulder_yaw_effort"        value="6000.0" />
